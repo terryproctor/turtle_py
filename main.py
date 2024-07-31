@@ -14,7 +14,7 @@ def random_color():
 def draw_shape(turtle_object, sides):
     turtle_object.color(random_color())
 
-    for j in range(sides):
+    for _ in range(sides):
         angle = 360 / sides
         turtle_object.forward(2)
         turtle_object.right(angle)
